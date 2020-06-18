@@ -16,12 +16,16 @@ This Workout Tracker App allows a user to save their workout info. A new workout
 
 ## Usage <a name="usageLink"></a>
 To install dependencies run ```npm i```
+
 To seed database ```npm run seed```
+
 To start application, run ```npm start```
 
 ## UI <a name="uiLink"></a>
 ![](images/workout_ui_1.png)
+
 ![](images/workout_ui_2.png)
+
 ![](images/workout_ui_3.png)
 
 ## Version <a name="versionLink"></a>
@@ -30,7 +34,9 @@ To start application, run ```npm start```
 ## Stack  <a name="dependenciesLink"></a>
 
 -MongoDB and mongoose
+
 -Express
+
 -Node.js
 
 ## Contact <a name="contactLink"></a>
