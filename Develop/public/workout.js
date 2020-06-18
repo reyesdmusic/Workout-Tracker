@@ -6,6 +6,19 @@ async function initWorkout() {
       .querySelector("a[href='/exercise?']")
       .setAttribute("href", `/exercise?id=${lastWorkout._id}`);
 
+    //Declaring sumTotalDuration
+
+    let sumTotalDuration = 0;
+
+    //Setting sumTotalDuration to the sum all the durations of execersises from the last workout
+
+    for (i = 0; i < lastWorkout.exercises.length; i++) {
+        sumTotalDuration += lastWorkout.exercises[i].duration;
+      }
+
+    //Setting the value of lastWorkout.totalDuration to sumTotalDuration (this will show on index.html)
+    lastWorkout.totalDuration = sumTotalDuration;
+
     const workoutSummary = {
       date: formatDate(lastWorkout.day),
       totalDuration: lastWorkout.totalDuration,

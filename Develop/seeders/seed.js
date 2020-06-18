@@ -131,7 +131,8 @@ let workoutSeed = [
         duration: 30,
         distance: 2
       }
-    ]
+    ],
+    totalDuration: 50
   }
 ];
 
